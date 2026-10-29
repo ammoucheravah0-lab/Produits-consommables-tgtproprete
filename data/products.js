@@ -30,10 +30,10 @@ const P = (id, name, category, targets, icon, format, description, extra = {}) =
 });
 
 export const SEED = [
-  P("SPEED-FLASH-tgt", "Speed Flash • Dégraissant HACCP Cuisine Pro", "degraissants", ["restaurateurs"], "🍳", "Carton 4 × 5 L / 12 x 750 ML",
+  P("SPEED-FLASH-tgt", "Speed Flash • Dégraissant HACCP Cuisine Pro", "degraissants", ["restaurateurs"], "🍳", "Bidon 5 L · Carton 5 L x 4",
     "Notre formule phare : attaque les graisses cuites sur plans de travail, hottes et plonge. Pensé pour les protocoles HACCP.",
     {
-      price: "20,90 € HT",
+      price: "20,90 € HT / bidon de 5 L",
       featured: true,
       features: [
         "Attaque les graisses cuites sur plans de travail, hottes et plonge",
@@ -59,17 +59,17 @@ export const SEED = [
   P("SOL-IMPERIAL-tgt", "SOL+ Zéro danger • détergent désodorisant pour toutes surfaces lavables", "sols", ["chantiers", "restaurateurs", "commerces", "bureaux"], "🔥", "Bidon 5 L · Carton 5 L x 4",
     "Diluer selon le degré de salissures de 1 à 5 %, toutes surfaces lavables (surfaces modernes ou stratifiées, surfaces peintes, sols, sanitaires…).",
     {
-      price: "11,99 € HT",
+      price: "11,99 € HT / bidon de 5 L",
       featured: true,
       features: ["Aspect : liquide translucide coloré selon les senteurs", "Odeur : selon les parfums disponibles", "pH à l'état pur : 7.5 +/-0.5", "Densité à 20 °C : 1,001 g/cm³ +/- 0.005", "Composition : tensio-actifs non-ioniques, séquestrant, solvant, parfum, colorant"],
       usage: ["Diluer selon le niveau de salissure 1 à 5 %.", "Diluer à 10 % pour le nettoyage des surfaces modernes", "SI SOL+ ne nécessite pas de rinçage."],
-      precautions: ["Ne pas avaler. ", "Ne pas mélanger à d’autres produits.", "Tenir hors de portée des enfants.", "Stocker le produit dans son emballage d’origine à l’abri de la lumière et à une température comprise entre 5° et 30°C.", "En cas de projection oculaire, rincer abondamment à l’eau."  ],
+      precautions: ["Ne pas avaler. ", "Ne pas mélanger à d’autres produits.", "Tenir hors de portée des enfants.", "Stocker le produit dans son emballage d’origine à l’abri de la lumière et à une température comprise entre 5° et 30°C.", "En cas de projection oculaire, rincer abondamment à l’eau."],
       technical: { "Conditionnement": "Bidon 5 L · Carton 5 L x 4" },
     }),
 
-P("SI-four-tgtproprete", "FOUR 2+ • Décapant Fours, Grills, hottes etc..", "degraissants", ["restaurateurs"], "🔥", "4 Bidons de 5 L · Bidon de 20 L",
+  P("SI-four-tgtproprete", "FOUR 2+ • Décapant Fours, Grills, hottes etc..", "degraissants", ["restaurateurs"], "🔥", "Bidon 5 L · Carton 5 L x 4",
     "Puissant dégraissant pour les gaines, les hottes, les grilles et les systèmes d'extraction en cuisine industrielle. Permet le dégraissage des fours très encrassés en pénétrant, dissolvant et émulsionnant les graisses végétales et animales ainsi que les souillures tenaces.",
-        {
+    {
       price: "à venir",
       featured: true,
       features: [
@@ -92,12 +92,14 @@ P("SI-four-tgtproprete", "FOUR 2+ • Décapant Fours, Grills, hottes etc..", "d
 
       technical: { "Aspect": "Liquide marron", "pH à l'état pur": "> 13", "Odeur": "Alcaline", "Conditionnement": "4 Bidons de 5 L" },
       pdf: "./images/ft-produits/FT-SI-FOUR-tgtproprete.pdf",
+
+      available: false
     }),
 
-  P("SI-clean-tgt", "CLEAN • Puissant Dégraissant Polyvalent Industriel", ["sols", "degraissants"], ["chantiers", "commerces"], "🧽", "4 Bidons de 5 L",
+  P("SI-clean-tgt", "CLEAN • Puissant Dégraissant Polyvalent Industriel", ["sols", "degraissants"], ["chantiers", "commerces"], "🧽", "Bidon 5 L · Carton 5 L x 4",
     "Nettoyant et dégraissant surpuissant multi-surfaces pour la rénovation des sols et surfaces fortement encrassés (sols non protégés, murs, portes, carrelages, grès, ciment peint). Peu moussant, idéal pour les zones à fort passage.",
-        {
-      price: "18,99 € HT",
+    {
+      price: "18,99 € HT / bidon de 5 L",
       featured: true,
       features: [
         "Permet la rénovation des sols et surfaces fortement encrassés",
@@ -119,10 +121,10 @@ P("SI-four-tgtproprete", "FOUR 2+ • Décapant Fours, Grills, hottes etc..", "d
       pdf: "./images/ft-produits/FT-SI-CLEAN-tgtproprete.pdf",
     }),
 
- P("sanigel-tgt", "SANIGEL • Puissant Détartrant en Gel 3 en 1", "sanitaires", ["commerces", "bureaux"], "🚽", "12 Flacons de 1 L",
+  P("sanigel-tgt", "SANIGEL • Puissant Détartrant en Gel 3 en 1", "sanitaires", ["commerces", "bureaux"], "🚽", "Bidon 5 L · Carton 5 L x 4",
     "Puissant détartrant rénovant concentré en gel pour les sanitaires, salles de bain, douches, WC et surfaces lavables (céramique, porcelaine, robinetterie, chrome, inox, carrelage). Élimine efficacement le calcaire, les traces de savon et de rouille tout en respectant les supports métalliques et en laissant une agréable odeur de pin frais.",
-        {
-      price: "25,99 € HT",
+    {
+      price: "25,99 € HT / bidon de 5 L",
       featured: true,
       features: [
         "Élimine le calcaire, les traces de savon et de rouille en redonnant de la brillance",
@@ -145,10 +147,10 @@ P("SI-four-tgtproprete", "FOUR 2+ • Décapant Fours, Grills, hottes etc..", "d
       pdf: "./images/ft-produits/FT-SANIGEL-tgtproprete.pdf",
     }),
 
-  P("si-calc-tgt", "CALC • Détartrant Rénovant Sanitaires", "sanitaires", ["commerces", "bureaux"], "🚿", "12 Flacons de 1 L · 4 Bidons de 5 L",
+  P("si-calc-tgt", "CALC • Détartrant Rénovant Sanitaires", "sanitaires", ["commerces", "bureaux"], "🚿", "Bidon 5 L · Carton 5 L x 4",
     "Puissant détartrant rénovant concentré pour les sanitaires, salles de bain, douches, WC et surfaces lavables (céramique, porcelaine, robinetterie, chrome, carrelage). Élimine efficacement le voile calcaire, les traces de savon et de rouille tout en redonnant de la brillance, sans attaquer les supports métalliques, et laisse une agréable odeur florale.",
-        {
-      price: "17,99 € HT",
+    {
+      price: "17,99 € HT / bidon de 5 L",
       featured: true,
       features: [
         "Enlève le voile calcaire, les traces de savon et de rouille en redonnant de la brillance",
@@ -173,8 +175,8 @@ P("SI-four-tgtproprete", "FOUR 2+ • Décapant Fours, Grills, hottes etc..", "d
 
   P("si-deo-tgt", "DEO • Désodorisant d'Ambiance Longue Durée", "desodorisants", ["bureaux", "commerces", "restaurateurs"], "🌿", "15 Sprays de 250 ml",
     "Désodorisant d'atmosphère exempt de CMR qui permet de désodoriser efficacement les locaux durant plusieurs heures (bureaux, halls d'entrée, couloirs, salles de réunion, vestiaires, véhicules, salles d'attente, chambres). Disponible en plusieurs parfums (Dakkar, Lounge sans allergène, Citron, Coquelicot, Fleurs de coton, agrumes, Vent frais, Fraîcheur impériale).",
-        {
-      price: "6,99 € HT",
+    {
+      price: "6,99 € HT / Spray de 250 ml",
       featured: true,
       features: [
         "Désodorise durablement l'atmosphère durant plusieurs heures",
@@ -197,10 +199,10 @@ P("SI-four-tgtproprete", "FOUR 2+ • Décapant Fours, Grills, hottes etc..", "d
       pdf: "./images/ft-produits/FT-SI-DEO-tgtproprete.pdf",
     }),
 
-P("si-menage-tgt", "MENAGE • Détachant Nettoyant Multi-Usages", "surfaces", ["bureaux", "commerces", "restaurateurs"], "🧽", "12 Flacons de 1 L · 4 Bidons de 5 L",
+  P("si-menage-tgt", "MENAGE • Détachant Nettoyant Multi-Usages", "surfaces", ["bureaux", "commerces", "restaurateurs"], "🧽", "Bidon 5 L · Carton 5 L x 4",
     "Solution hydro-alcoolique au pouvoir mouillant élevé recommandée pour l'entretien des surfaces modernes et stratifiées, mobilier de bureau, matériel informatique, téléphones, poignées de portes, peintures lavables et surfaces émaillées. Antistatique, il enlève les tâches d'encre, nettoie, dégraisse, désodorise, sèche rapidement sans laisser de trace ni auréole.",
-        {
-      price: "13,99 € HT",
+    {
+      price: "13,99 € HT / bidon de 5 L",
       featured: true,
       features: [
         "Propriété antistatique : enlève les tâches d'encre, nettoie, dégraisse et désodorise",
@@ -219,13 +221,13 @@ P("si-menage-tgt", "MENAGE • Détachant Nettoyant Multi-Usages", "surfaces", [
         "Conserver hors de la portée des enfants et stocker entre 5° et 30°C dans l'emballage d'origine",
       ],
 
-      technical: { "Aspect": "Liquide incolore", "pH à l'état pur": "7.5 +/- 0.5", "Parfum": "Menthe", "Conditionnement": "12 Flacons de 1 L ou 4 Bidons de 5 L" },
+      technical: { "Aspect": "Liquide incolore", "pH à l'état pur": "7.5 +/- 0.5", "Parfum": "Menthe", "Conditionnement": "Bidon 5 L · Carton 5 L x 4" },
       pdf: "./images/ft-produits/FT-SI-MENAGE-tgtproprete.pdf",
     }),
-P("si-inox-tgt", "SINOX • Nettoyant Lustrant Inox", "surfaces", ["restaurateurs", "commerces"], "✨", "12 Aérosols de 500 ml",
+  P("si-inox-tgt", "SINOX • Nettoyant Lustrant Inox", "surfaces", ["restaurateurs", "commerces"], "✨", "12 Aérosols de 500 ml",
     "Fluide nettoyant, lubrifiant et lustrant de surface pour l'entretien et la protection des métaux, alliages légers et inoxydables. Élimine rapidement les traces de doigts, salissures et auréoles tout en laissant un film protecteur hydrophobe qui retarde l'accrochage des salissures et protège contre l'oxydation, la corrosion et la rouille.",
-        {
-      price: "9,99 € HT",
+    {
+      price: "9,99 € HT / bidon de 5 L",
       featured: true,
       features: [
         "Laisse un effet protecteur invisible hydrophobe qui retarde l'accrochage des salissures",
@@ -248,10 +250,10 @@ P("si-inox-tgt", "SINOX • Nettoyant Lustrant Inox", "surfaces", ["restaurateur
       technical: { "Aspect": "Liquide fluide en aérosol", "Odeur": "Faible de cire", "Point éclair": "70 °C", "Conditionnement": "12 Aérosols de 500 ml" },
       pdf: "./images/ft-produits/FT-SINOX-tgtproprete.pdf",
     }),
-P("si-odor-pin-tgt", "ODOR+ PIN • Détergent Assainissant Surodorant", "desodorisants", ["bureaux", "commerces", "restaurants"], "🌲", "4 Bidons de 5 L",
+  P("si-odor-pin-tgt", "ODOR+ PIN • Détergent Assainissant Surodorant", "desodorisants", ["bureaux", "commerces", "restaurants"], "🌲", "Bidon 5 L · Carton 5 L x 4",
     "Détergent à haute concentration et à fort pouvoir rémanent qui détruit intégralement toutes les souillures et absorbe les mauvaises odeurs. Idéal pour le nettoyage de tous types de surfaces : locaux à poubelles, gaines, sanitaires, halls d'immeubles, ascenseurs et vestiaires.",
-        {
-      price: "18,99 € HT",
+    {
+      price: "18,99 € HT / bidon de 5 L",
       featured: true,
       features: [
         "Détergent assainissant et surodorant à fort pouvoir rémanent",
@@ -269,13 +271,13 @@ P("si-odor-pin-tgt", "ODOR+ PIN • Détergent Assainissant Surodorant", "desodo
         "Stocker dans l'emballage d'origine à l'abri de la lumière entre 5° et 30°C",
       ],
 
-      technical: { "Aspect": "Liquide vert", "pH à l'état pur": "7 +/- 0.5", "Parfum": "Pin et eucalyptus", "Conditionnement": "4 Bidons de 5 L" },
+      technical: { "Aspect": "Liquide vert", "pH à l'état pur": "7 +/- 0.5", "Parfum": "Pin et eucalyptus", "Conditionnement": "Bidon 5 L · Carton 5 L x 4" },
       pdf: "./images/ft-produits/FT-SI-ODOR-PIN-tgtproprete.pdf",
     }),
-P("SI-VITRES-ZERO-PICTO-tgt", "VITRES ZERO • Polish Nettoyant Vitres et Surfaces", "vitres", ["bureaux", "commerces"], "🪟", "12 Pulvérisateurs de 750 ml · 12 Flacons de 1 L · 4 Bidons de 5 L",
+  P("SI-VITRES-ZERO-PICTO-tgt", "VITRES ZERO • Polish Nettoyant Vitres et Surfaces", "vitres", ["bureaux", "commerces"], "🪟", "12 Pulvérisateurs de 750 ml · 4 Bidons de 5 L",
     "Nettoyant polish prêt à l'emploi pour vitres, miroirs, pare-brises, écrans et surfaces plastiques, modernes, stratifiées ou peintes. Doté d'un haut pouvoir nettoyant, il sèche rapidement sans laisser de trace tout en laissant une agréable odeur de fraîcheur.",
-        {
-      price: "13,20 € HT",
+    {
+      price: "13,20 € HT / bidon de 5 L",
       featured: true,
       features: [
         "Nettoyant sans trace pour vitres, miroirs, pare-brises et écrans",
@@ -297,10 +299,10 @@ P("SI-VITRES-ZERO-PICTO-tgt", "VITRES ZERO • Polish Nettoyant Vitres et Surfac
       technical: { "Aspect": "Liquide bleu", "pH à l'état pur": "7.5 +/- 0.5", "Parfum": "Frais", "Conditionnement": "12 Pulvérisateurs de 750 ml, 12 Flacons de 1 L ou 4 Bidons de 5 L" },
       pdf: "./images/ft-produits/FT-VITRES-ZERO-PICTO-tgtproprete.pdf",
     }),
-P("si-plonge-tgt", "PLONGE • Dégraissant Concentré Vaisselle et Ustensiles", "degraissants", ["restaurateurs"], "🍽️", "12 Flacons de 1 L · 4 Bidons de 5 L",
+  P("si-plonge-tgt", "PLONGE • Dégraissant Concentré Vaisselle et Ustensiles", "degraissants", ["restaurateurs"], "🍽️", "12 Flacons de 1 L · 4 Bidons de 5 L",
     "Dégraissant concentré pour le lavage de la vaisselle, de la verrerie, des plans de travail et de tous les ustensiles au contact des denrées alimentaires, même en eau calcaire. S'utilise aussi sur les surfaces lavables et stratifiées pour éliminer les corps gras les plus tenaces, tout en facilitant le rinçage et le séchage sans traînées blanches.",
-        {
-      price: "11,50 € HT",
+    {
+      price: "11,50 € HT / bidon de 5 L",
       featured: true,
       features: [
         "Élimine tous les corps gras, même les plus tenaces, sur la vaisselle et les plans de travail",
@@ -322,10 +324,10 @@ P("si-plonge-tgt", "PLONGE • Dégraissant Concentré Vaisselle et Ustensiles",
       technical: { "Aspect": "Liquide visqueux orangé", "pH à l'état pur": "7.5 +/- 0.5", "Parfum": "Agrumes", "Conditionnement": "12 Flacons de 1 L ou 4 Bidons de 5 L" },
       pdf: "./images/ft-produits/FT-SI-PLONGE-tgtproprete.pdf",
     }),
-P("creme-mains-base-tgt", "CRÈME MAINS • Nettoyant Mains Nacré", "consommables", ["bureaux", "commerces", "restaurateurs"], "🧼", "Bidon de 5 L",
+  P("creme-mains-base-tgt", "CRÈME MAINS • Nettoyant Mains Nacré", "consommables", ["bureaux", "commerces", "restaurateurs"], "🧼", "Bidon de 5 L",
     "Crème liquide nettoyante formulée spécialement pour le lavage des mains et de la peau. Gel doux liquide, parfaitement toléré lors d'usages consécutifs et fréquents, prête à l'emploi et utilisable dans tous les distributeurs de savon.",
-        {
-      price: "10,99 € HT",
+    {
+      price: "10,99 € HT / bidon de 5 L",
       featured: true,
       features: [
         "Formulé spécialement pour le lavage fréquent des mains et de la peau",
@@ -347,10 +349,10 @@ P("creme-mains-base-tgt", "CRÈME MAINS • Nettoyant Mains Nacré", "consommabl
       technical: { "Aspect": "Liquide nacré", "Conditionnement": "Bidon de 5 L" },
       pdf: "./images/ft-produits/FT-CREME-MAINS-tgtproprete.pdf",
     }),
-    P("2D-FRAICHEUR-IMPERIALE-tgt", "ODOR 2D • Détergent Désodorisant pH Neutre", "sols", ["bureaux", "commerces"], "🌸", "12 Flacons de 1 L · 4 Bidons de 5 L",
+  P("2D-FRAICHEUR-IMPERIALE-tgt", "ODOR 2D • Détergent Désodorisant pH Neutre", "sols", ["bureaux", "commerces"], "🌸", "Bidon 5 L · Carton 5 L x 4",
     "Détergent désodorisant pour toutes surfaces lavables (surfaces modernes, stratifiées, peintes, sols, sanitaires). Grâce à son pH neutre, il est parfaitement adapté pour le nettoyage des sols protégés par des émulsions. Offre une senteur longue rémanence disponible en de nombreux parfums (ou version sans parfum).",
-        {
-      price: "9,99 € HT",
+    {
+      price: "9,99 € HT / bidon de 5 L",
       featured: true,
       features: [
         "pH neutre parfaitement adapté pour le nettoyage des sols protégés par des émulsions",
@@ -372,10 +374,10 @@ P("creme-mains-base-tgt", "CRÈME MAINS • Nettoyant Mains Nacré", "consommabl
       technical: { "Aspect": "Liquide translucide coloré", "pH à l'état pur": "7.5 +/- 0.5", "Parfum": "Multiples senteurs au choix", "Conditionnement": "12 Flacons de 1 L ou 4 Bidons de 5 L" },
       pdf: "./images/ft-produits/FT-SI-ODOR-2D-tgtproprete.pdf",
     }),
-    P("Détergent-Triple-action-tgt", "ODOR 3D TRIPLE ACTION • Détergent Désodorisant Désinfectant pH Neutre", "sols", ["bureaux", "commerces","restaurateurs", "chantiers"], "✨", "4 Bidons de 5 L",
+  P("Détergent-Triple-action-tgt", "ODOR 3D TRIPLE ACTION • Détergent Désodorisant Désinfectant pH Neutre", "sols", ["bureaux", "commerces", "restaurateurs", "chantiers"], "✨", "Bidon 5 L · Carton 5 L x 4",
     "Détergent désodorisant désinfectant parfumé pour toutes surfaces lavables (surfaces modernes ou stratifiées, surfaces peintes, sols, sanitaires). Grâce à son pH neutre, il est parfaitement adapté pour le nettoyage des sols protégés par des émulsions. Offre une senteur longue rémanence disponible en de nombreux parfums ou en version sans parfum.",
-        {
-      price: "11,99 € HT",
+    {
+      price: "11,99 € HT / bidon de 5 L",
       featured: true,
       features: [
         "Action triple : détergent, désodorisant et désinfectant multi-usages",
@@ -398,11 +400,11 @@ P("creme-mains-base-tgt", "CRÈME MAINS • Nettoyant Mains Nacré", "consommabl
       pdf: "./images/ft-produits/FT-SI-ODOR-3D-TRIPLE-ACTION-tgtproprete.pdf",
     }),
   P("maxi-jumbo380-tgt", "Papier Hygiénique Maxi Jumbo", "consommables", ["bureaux", "commerces", "restaurants"], "🧻", "Carton de 6 bobines",
-    "Bobines grande capacité pour distributeurs collectifs, ouate douce et résistante.", { price: "22€ €  HT" }),
+    "Bobines grande capacité pour distributeurs collectifs, ouate douce et résistante.", { price: "22€ €  HT / bidon de 5 L" }),
   P("Papiershygnq-rouleau-tgt", "Papier Hygiénique rouleau", "consommables", ["bureaux", "commerces", "restaurants"], "🧻", "Pack de 28 rouleau",
-    "Bobines grande capacité pour distributeurs collectifs, ouate douce et résistante.", { price: "10,99€  HT" }),
-  P("essuie-mains-rouleau", "Essuie-mains Rouleau", "consommables", ["bureaux","commerces", "restaurateurs"], "🧻", "Carton de 6 rouleaux",
-    "Rouleaux absorbants pour sanitaires et zones de passage intensif.", { price: "15,99 € HT", available: false }),
+    "Bobines grande capacité pour distributeurs collectifs, ouate douce et résistante.", { price: "10,99€  HT / bidon de 5 L" }),
+  P("essuie-mains-rouleau", "Essuie-mains Rouleau", "consommables", ["bureaux", "commerces", "restaurateurs"], "🧻", "Carton de 6 rouleaux",
+    "Rouleaux absorbants pour sanitaires et zones de passage intensif.", { price: "15,99 € HT / bidon de 5 L", available: false }),
   P("essuie-mains-plies-z", "Essuie-mains Pliés (Z)", "consommables", ["bureaux", "commerces", "restaurants"], "🧻", "Carton de 20 paquets",
     "Feuilles pliées, absorbantes et économiques pour distributeurs muraux.", { price: "A venir", available: false }),
 ];
