@@ -56,7 +56,7 @@ export const SEED = [
       technical: { "Aspect": " liquide jaune", "pH à l'état pur": "12.5", "Parfum": "Citron", "Conditionnement": "Bidon 5 L ou 750 ML" },
       pdf: "./images/ft-produits/FT-Speed-Flash-tgtproprete.pdf",
     }),
-  P("SOL-IMPERIAL-tgt", "SOL+ Zéro danger • détergent désodorisant pour toutes surfaces lavables", "sols", ["chantiers", "restaurateurs", "commerces", "bureaux"], "🔥", "Bidon 5 L · Carton 5 L x 4",
+  P("sol-imperiale-tgt", "SOL+ Zéro danger • détergent désodorisant pour toutes surfaces lavables", "sols", ["chantiers", "restaurateurs", "commerces", "bureaux"], "🔥", "Bidon 5 L · Carton 5 L x 4",
     "Diluer selon le degré de salissures de 1 à 5 %, toutes surfaces lavables (surfaces modernes ou stratifiées, surfaces peintes, sols, sanitaires…).",
     {
       price: "11,99 € HT / bidon de 5 L",
@@ -67,7 +67,7 @@ export const SEED = [
       technical: { "Conditionnement": "Bidon 5 L · Carton 5 L x 4" },
     }),
 
-  P("SI-four-tgtproprete", "FOUR 2+ • Décapant Fours, Grills, hottes etc..", "degraissants", ["restaurateurs"], "🔥", "Bidon 5 L · Carton 5 L x 4",
+  P("si-four-tgtproprete", "FOUR 2+ • Décapant Fours, Grills, hottes etc..", "degraissants", ["restaurateurs"], "🔥", "Bidon 5 L · Carton 5 L x 4",
     "Puissant dégraissant pour les gaines, les hottes, les grilles et les systèmes d'extraction en cuisine industrielle. Permet le dégraissage des fours très encrassés en pénétrant, dissolvant et émulsionnant les graisses végétales et animales ainsi que les souillures tenaces.",
     {
       price: "à venir",
@@ -96,7 +96,7 @@ export const SEED = [
       available: false
     }),
 
-  P("SI-clean-tgt", "CLEAN • Puissant Dégraissant Polyvalent Industriel", ["sols", "degraissants"], ["chantiers", "commerces"], "🧽", "Bidon 5 L · Carton 5 L x 4",
+  P("si-clean-tgt", "CLEAN • Puissant Dégraissant Polyvalent Industriel", ["sols", "degraissants"], ["chantiers", "commerces"], "🧽", "Bidon 5 L · Carton 5 L x 4",
     "Nettoyant et dégraissant surpuissant multi-surfaces pour la rénovation des sols et surfaces fortement encrassés (sols non protégés, murs, portes, carrelages, grès, ciment peint). Peu moussant, idéal pour les zones à fort passage.",
     {
       price: "18,99 € HT / bidon de 5 L",
@@ -274,7 +274,7 @@ export const SEED = [
       technical: { "Aspect": "Liquide vert", "pH à l'état pur": "7 +/- 0.5", "Parfum": "Pin et eucalyptus", "Conditionnement": "Bidon 5 L · Carton 5 L x 4" },
       pdf: "./images/ft-produits/FT-SI-ODOR-PIN-tgtproprete.pdf",
     }),
-  P("SI-VITRES-ZERO-PICTO-tgt", "VITRES ZERO • Polish Nettoyant Vitres et Surfaces", "vitres", ["bureaux", "commerces"], "🪟", "12 Pulvérisateurs de 750 ml · 4 Bidons de 5 L",
+  P("si-vitres-zero-picto-tgt", "VITRES ZERO • Polish Nettoyant Vitres et Surfaces", "vitres", ["bureaux", "commerces"], "🪟", "12 Pulvérisateurs de 750 ml · 4 Bidons de 5 L",
     "Nettoyant polish prêt à l'emploi pour vitres, miroirs, pare-brises, écrans et surfaces plastiques, modernes, stratifiées ou peintes. Doté d'un haut pouvoir nettoyant, il sèche rapidement sans laisser de trace tout en laissant une agréable odeur de fraîcheur.",
     {
       price: "13,20 € HT / bidon de 5 L",
@@ -349,7 +349,7 @@ export const SEED = [
       technical: { "Aspect": "Liquide nacré", "Conditionnement": "Bidon de 5 L" },
       pdf: "./images/ft-produits/FT-CREME-MAINS-tgtproprete.pdf",
     }),
-  P("2D-FRAICHEUR-IMPERIALE-tgt", "ODOR 2D • Détergent Désodorisant pH Neutre", "sols", ["bureaux", "commerces"], "🌸", "Bidon 5 L · Carton 5 L x 4",
+  P("2d-fraicheur-imperiale-tgt", "ODOR 2D • Détergent Désodorisant pH Neutre", "sols", ["bureaux", "commerces"], "🌸", "Bidon 5 L · Carton 5 L x 4",
     "Détergent désodorisant pour toutes surfaces lavables (surfaces modernes, stratifiées, peintes, sols, sanitaires). Grâce à son pH neutre, il est parfaitement adapté pour le nettoyage des sols protégés par des émulsions. Offre une senteur longue rémanence disponible en de nombreux parfums (ou version sans parfum).",
     {
       price: "9,99 € HT / bidon de 5 L",
@@ -374,7 +374,7 @@ export const SEED = [
       technical: { "Aspect": "Liquide translucide coloré", "pH à l'état pur": "7.5 +/- 0.5", "Parfum": "Multiples senteurs au choix", "Conditionnement": "12 Flacons de 1 L ou 4 Bidons de 5 L" },
       pdf: "./images/ft-produits/FT-SI-ODOR-2D-tgtproprete.pdf",
     }),
-  P("Détergent-Triple-action-tgt", "ODOR 3D TRIPLE ACTION • Détergent Désodorisant Désinfectant pH Neutre", "sols", ["bureaux", "commerces", "restaurateurs", "chantiers"], "✨", "Bidon 5 L · Carton 5 L x 4",
+  P("détergent-triple-action-tgt", "ODOR 3D TRIPLE ACTION • Détergent Désodorisant Désinfectant pH Neutre", "sols", ["bureaux", "commerces", "restaurateurs", "chantiers"], "✨", "Bidon 5 L · Carton 5 L x 4",
     "Détergent désodorisant désinfectant parfumé pour toutes surfaces lavables (surfaces modernes ou stratifiées, surfaces peintes, sols, sanitaires). Grâce à son pH neutre, il est parfaitement adapté pour le nettoyage des sols protégés par des émulsions. Offre une senteur longue rémanence disponible en de nombreux parfums ou en version sans parfum.",
     {
       price: "11,99 € HT / bidon de 5 L",
