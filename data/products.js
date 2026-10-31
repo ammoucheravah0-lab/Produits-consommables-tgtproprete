@@ -96,7 +96,7 @@ export const SEED = [
       available: false
     }),
 
-  P("si-clean-tgt", "CLEAN • Puissant Dégraissant Polyvalent Industriel", ["sols", "degraissants"], ["chantiers", "commerces"], "🧽", "Bidon 5 L · Carton 5 L x 4",
+  P("si-clean-tgt", "CLEAN • Puissant Dégraissant Polyvalent Industriel", "sols", ["chantiers", "commerces"], "🧽", "Bidon 5 L · Carton 5 L x 4",
     "Nettoyant et dégraissant surpuissant multi-surfaces pour la rénovation des sols et surfaces fortement encrassés (sols non protégés, murs, portes, carrelages, grès, ciment peint). Peu moussant, idéal pour les zones à fort passage.",
     {
       price: "18,99 € HT / bidon de 5 L",
