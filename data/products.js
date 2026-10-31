@@ -400,7 +400,7 @@ export const SEED = [
       pdf: "./images/ft-produits/FT-SI-ODOR-3D-TRIPLE-ACTION-tgtproprete.pdf",
     }),
   P("maxi-jumbo380-tgt", "Papier Hygiénique Maxi Jumbo", "consommables", ["bureaux", "commerces", "restaurants"], "🧻", "Carton de 6 bobines",
-    "Bobines grande capacité pour distributeurs collectifs, ouate douce et résistante.", { price: "22€ €  HT / bidon de 5 L" }),
+    "Bobines grande capacité pour distributeurs collectifs, ouate douce et résistante.", { price: "22 € HT / pack de 6 rouleaux" }),
   P("Papiershygnq-rouleau-tgt", "Papier Hygiénique rouleau", "consommables", ["bureaux", "commerces", "restaurants"], "🧻", "Pack de 28 rouleau",
     "Bobines grande capacité pour distributeurs collectifs, ouate douce et résistante.", { price: "10,99€  HT / bidon de 5 L" }),
   P("essuie-mains-rouleau", "Essuie-mains Rouleau", "consommables", ["bureaux", "commerces", "restaurateurs"], "🧻", "Carton de 6 rouleaux",
