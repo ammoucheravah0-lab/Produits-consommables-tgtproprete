@@ -402,9 +402,9 @@ export const SEED = [
   P("maxi-jumbo380-tgt", "Papier Hygiénique Maxi Jumbo", "consommables", ["bureaux", "commerces", "restaurants"], "🧻", "Carton de 6 bobines",
     "Bobines grande capacité pour distributeurs collectifs, ouate douce et résistante.", { price: "22 € HT / pack de 6 rouleaux" }),
   P("Papiershygnq-rouleau-tgt", "Papier Hygiénique rouleau", "consommables", ["bureaux", "commerces", "restaurants"], "🧻", "Pack de 28 rouleau",
-    "Bobines grande capacité pour distributeurs collectifs, ouate douce et résistante.", { price: "10,99€  HT / bidon de 5 L" }),
-  P("essuie-mains-rouleau", "Essuie-mains Rouleau", "consommables", ["bureaux", "commerces", "restaurateurs"], "🧻", "Carton de 6 rouleaux",
-    "Rouleaux absorbants pour sanitaires et zones de passage intensif.", { price: "15,99 € HT / bidon de 5 L", available: false }),
+    "Bobines grande capacité pour distributeurs collectifs, ouate douce et résistante.", { price: "10,99€  HT / pack de 28 rouleaux" }),
+  P("essuie-mains-rouleau", "Essuie-mains • Bobine", "consommables", ["bureaux", "commerces", "restaurateurs"], "🧻", "Carton de 6 rouleaux",
+    "Rouleaux absorbants pour sanitaires et zones de passage intensif.", { price: "15,99 € HT / pack de 6 rouleaux", }),
   P("essuie-mains-plies-z", "Essuie-mains Pliés (Z)", "consommables", ["bureaux", "commerces", "restaurants"], "🧻", "Carton de 20 paquets",
     "Feuilles pliées, absorbantes et économiques pour distributeurs muraux.", { price: "A venir", available: false }),
 ];
