@@ -399,12 +399,18 @@ export const SEED = [
       technical: { "Aspect": "Liquide translucide coloré", "pH à l'état pur": "7.5 +/- 0.5", "Parfum": "Multiples senteurs ou sans parfum", "Conditionnement": "4 Bidons de 5 L" },
       pdf: "./images/ft-produits/FT-SI-ODOR-3D-TRIPLE-ACTION-tgtproprete.pdf",
     }),
-  P("maxi-jumbo380-tgt", "Papier Hygiénique Maxi Jumbo", "consommables", ["bureaux", "commerces", "restaurants"], "🧻", "Carton de 6 bobines",
-    "Bobines grande capacité pour distributeurs collectifs, ouate douce et résistante.", { price: "22 € HT / pack de 6 rouleaux" }),
-  P("Papiershygnq-rouleau-tgt", "Papier Hygiénique rouleau", "consommables", ["bureaux", "commerces", "restaurants"], "🧻", "Pack de 28 rouleau",
-    "Bobines grande capacité pour distributeurs collectifs, ouate douce et résistante.", { price: "10,99€  HT / pack de 28 rouleaux" }),
-  P("essuie-mains-rouleau", "Essuie-mains • Bobine", "consommables", ["bureaux", "commerces", "restaurateurs"], "🧻", "Carton de 6 rouleaux",
-    "Rouleaux absorbants pour sanitaires et zones de passage intensif.", { price: "15,99 € HT / pack de 6 rouleaux", }),
-  P("essuie-mains-plies-z", "Essuie-mains Pliés (Z)", "consommables", ["bureaux", "commerces", "restaurants"], "🧻", "Carton de 20 paquets",
-    "Feuilles pliées, absorbantes et économiques pour distributeurs muraux.", { price: "A venir", available: false }),
+P("maxi-jumbo380-tgt", "Papier Hygiénique Maxi Jumbo Pro", "consommables", ["bureaux", "commerces", "restaurants"], "🧻", "Carton de 6 bobines",
+    "Bobines grande capacité pour distributeurs collectifs, ouate douce et très résistante.", { price: "22,00 € HT / pack de 6 rouleaux" }),
+
+  P("Papiershygnq-rouleau-tgt", "Papier Hygiénique Rouleau Standard", "consommables", ["bureaux", "commerces", "restaurants"], "🧻", "Pack de 28 rouleaux",
+    "Rouleaux standards en ouate confortable, adaptés aux sanitaires professionnels.", { price: "10,99 € HT / pack de 28 rouleaux" }),
+
+  P("essuie-mains-rouleau-micro-gaufre", "Bobine d'Essuyage Micro-Gaufrée Pro", "consommables", ["bureaux", "commerces", "restaurants"], "🧻", "Carton de 6 rouleaux",
+    "Haute capacité d'absorption grâce à sa texture micro-perforée. Idéale pour sanitaires et zones de passage intensif.", { price: "15,99 € HT / pack de 6 rouleaux" }),
+
+  P("essuie-mains-rouleau-lisse", "Bobine d'Essuyage Lisse Pure Pâte", "consommables", ["bureaux", "commerces", "restaurants"], "🧻", "Carton de 6 rouleaux",
+    "Surface lisse spécial essuyage sans traces. Idéale pour les vitres, miroirs et nettoyages de précision.", { price: "15,99 € HT / pack de 6 rouleaux" }),
+
+  P("essuie-mains-plies-z", "Essuie-Mains Pliés en Z Pro", "consommables", ["bureaux", "commerces", "restaurants"], "🧻", "Carton de 20 paquets",
+    "Feuilles pliées distribution feuille à feuille, absorbantes et économiques pour distributeurs muraux.", { price: "À venir", available: false }),
 ];
