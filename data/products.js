@@ -30,7 +30,7 @@ const P = (id, name, category, targets, icon, format, description, extra = {}) =
 });
 
 export const SEED = [
-  P("SPEED-FLASH-tgt", "Speed Flash • Dégraissant HACCP Cuisine Pro", "degraissants", ["restaurateurs"], "🍳", "Bidon 5 L · Carton 5 L x 4",
+  P("speed-flash-tgt", "Speed Flash • Dégraissant HACCP Cuisine Pro", "degraissants", ["restaurateurs"], "🍳", "Bidon 5 L · Carton 5 L x 4",
     "Notre formule phare : attaque les graisses cuites sur plans de travail, hottes et plonge. Pensé pour les protocoles HACCP.",
     {
       price: "20,90 € HT / bidon de 5 L",
