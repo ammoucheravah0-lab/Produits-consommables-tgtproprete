@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Jost", system-ui, sans-serif;
+  --ease: cubic-bezier(.22, 1, .36, 1);
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 96px; }
+  body { @apply bg-paper font-sans text-ink antialiased; overflow-x: clip; }
+  :focus-visible { outline: 2px solid #C9A84C; outline-offset: 3px; border-radius: 6px; }
+  ::selection { background: #C9A84C; color: #0F1F3D; }
+  img { @apply block; }
+}
+
+@layer components {
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[15px] font-semibold transition-all duration-300 select-none; }
+  .btn-gold { @apply bg-gradient-to-br from-gold to-gold-deep text-navy-900 shadow-[0_10px_24px_-10px_rgba(158,128,45,.8)] hover:-translate-y-0.5 hover:brightness-105 hover:shadow-[0_16px_30px_-12px_rgba(158,128,45,.9)] active:translate-y-0; }
+  .btn-outline { @apply border-2 border-gold text-ink hover:bg-gold-soft hover:-translate-y-0.5; }
+  .btn-ghost-light { @apply border border-white/40 text-white hover:bg-white/10 hover:border-white/70 hover:-translate-y-0.5; }
+  .field { @apply w-full rounded-xl border border-ink/15 bg-white px-4 py-3 text-[15px] transition-colors placeholder:text-ink/35 focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30; }
+  .display { @apply font-serif font-semibold tracking-tight; }
+}
+
+/* ---------- HERO : texte lisible sur photo ---------- */
+.hero-text-shadow { text-shadow: 0 2px 28px rgba(5, 12, 30, .55), 0 1px 3px rgba(5, 12, 30, .5); }
+
+/* ---------- Animations ---------- */
+@keyframes rise   { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+@keyframes pop    { from { opacity: 0; transform: scale(.96); } to { opacity: 1; transform: none; } }
+@keyframes slide-in { from { transform: translateX(100%); } to { transform: none; } }
+@keyframes fade   { from { opacity: 0; } to { opacity: 1; } }
+@keyframes bump   { 0%,100% { transform: scale(1); } 40% { transform: scale(1.35); } }
+@keyframes toast-in { from { opacity: 0; transform: translate(-50%, 14px); } to { opacity: 1; transform: translate(-50%, 0); } }
+
+.anim-rise  { animation: rise .8s var(--ease) both; }
+.anim-card  { animation: pop .45s var(--ease) both; }
+.anim-drawer { animation: slide-in .38s var(--ease) both; }
+.anim-fade  { animation: fade .25s ease both; }
+.anim-bump  { animation: bump .45s var(--ease); }
+.anim-toast { animation: toast-in .35s var(--ease) both; }
+
+.hide-scrollbar { scrollbar-width: none; }
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; animation-delay: 0ms !important; transition-duration: .01ms !important; }
+}

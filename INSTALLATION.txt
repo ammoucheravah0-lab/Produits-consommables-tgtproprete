@@ -1,0 +1,9 @@
+TGT PROPRETÉ — mise à jour (panier, commande e-mail, WhatsApp, refonte UI)
+
+1. Dézippez CE dossier PAR-DESSUS la racine de votre projet (acceptez de remplacer les fichiers).
+2. SUPPRIMEZ ces 2 fichiers à la racine (remplacés par des versions rangées dans /app) :
+      page.jsx      -> désormais app/page.jsx
+      route.js      -> désormais app/api/chat/route.js
+3. Copiez .env.example vers .env.local et renseignez RESEND_API_KEY (voir le fichier).
+4. Déposez votre photo dans public/images/hero/accueil.jpg
+5. npm run dev  (aucune nouvelle dépendance à installer)

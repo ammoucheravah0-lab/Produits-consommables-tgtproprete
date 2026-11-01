@@ -1,0 +1,6 @@
+Déposez ici la photo d'arrière-plan de l'accueil, nommée exactement :  accueil.jpg
+
+- Format paysage, 1920x1080 minimum, JPG optimisé (< 400 Ko idéalement)
+- Privilégiez une photo sombre ou moyenne, sujet décalé sur un côté : un voile bleu nuit est ajouté automatiquement
+- Pour changer le nom ou le chemin : lib/site.js -> HERO_IMAGE
+Tant que le fichier n'existe pas, le site affiche un dégradé bleu nuit élégant.
