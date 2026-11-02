@@ -394,14 +394,14 @@ export const SEED = [
       technical: { "Matière": "Ouate de cellulose", "Format": "Maxi Jumbo 380m", "Conditionnement": "Carton de 6 bobines" },
     }),
 
-  P("Papiershygnq-rouleau-tgt", "Papier Hygiénique Rouleau Standard", "consommables", ["bureaux", "commerces", "restaurateurs"], "🧻", "Pack de 28 rouleaux",
+  P("Papiershygnq-rouleau-tgt", "Papier Hygiénique Rouleau Standard", "consommables", ["bureaux", "commerces", "restaurateurs"], "🧻", "Pack de 72 rouleaux",
     "Rouleaux de papier hygiénique standard en pure ouate confortable, parfaitement adaptés aux exigences des sanitaires de bureaux et structures professionnelles.",
     {
-      price: "10,99 € HT / pack de 28 rouleaux",
+      price: "10,99 € HT / pack de 72 rouleaux",
       featured: false,
       features: [
         "Confort optimal et bonne résistance à l'usage",
-        "Conditionnement économique en pack de 28 rouleaux pour la gestion des stocks",
+        "Conditionnement économique en pack de 72 rouleaux pour la gestion des stocks",
       ],
       usage: [
         "Utilisation sur dérouleur individuel classique",
@@ -409,7 +409,7 @@ export const SEED = [
       precautions: [
         "Conserver à l'abri de l'humidité avant utilisation",
       ],
-      technical: { "Conditionnement": "Pack de 28 rouleaux", "Qualité": "Double épaisseur" },
+      technical: { "Conditionnement": "Pack de 72 rouleaux", "Qualité": "Double épaisseur" },
     }),
 
   P("bobine-essuyage-micro-gaufrée", "Bobine d'Essuyage Micro-Gaufrée Pro", "consommables", ["bureaux", "commerces", "restaurateurs"], "🧻", "Carton de 6 bobines",
