@@ -53,7 +53,7 @@ export const SEED = [
   P("sol-imperiale-tgt", "SOL+ Zéro danger • Détergent Désodorisant Toutes Surfaces", "sols", ["chantiers", "restaurateurs", "commerces", "bureaux"], "🔥", "Bidon 5 L · Carton 5 L x 4",
     "Détergent désodorisant polyvalent à pH neutre pour un entretien quotidien sans risque de toutes les surfaces lavables. Laisse une rémanence parfumée longue durée dans vos espaces professionnels.",
     {
-      price: "11,99 € HT / bidon de 5 L",
+      price: "12,99 € HT / bidon de 5 L",
       featured: true,
       badge: "Polyvalent",
       features: [
@@ -172,10 +172,10 @@ export const SEED = [
       pdf: "/images/ft-produits/FT-SI-CALC-tgtproprete.pdf",
     }),
 
-  P("si-deo-tgt", "DEO • Désodorisant d'Ambiance Longue Durée sans CMR", "desodorisants", ["bureaux", "commerces", "restaurateurs"], "🌿", "15 Sprays de 250 ml",
+  P("si-deo-tgt", "DEO • Désodorisant d'Ambiance Longue Durée sans CMR", "desodorisants", ["bureaux", "commerces", "restaurateurs"], "🌿", "12 Sprays de 250 ml",
     "Parfum d'ambiance professionnel de haute qualité, exempt de substances CMR. Neutralise les odeurs indésirables et parfume durablement les halls, bureaux et espaces d'accueil.",
     {
-      price: "6,99 € HT / Spray de 250 ml",
+      price: "5,80 € HT / Spray de 250 ml",
       featured: true,
       badge: "Sans CMR",
       features: [
@@ -220,7 +220,7 @@ export const SEED = [
   P("si-inox-tgt", "SINOX • Nettoyant Lustrant Protecteur Inox", "surfaces", ["restaurateurs", "commerces"], "✨", "12 Aérosols de 500 ml",
     "Fluide spécial pour l'entretien et la mise en valeur des surfaces en acier inoxydable, chrome et métaux alliés. Laisse un film protecteur hydrophobe anti-traces.",
     {
-      price: "9,99 € HT / aérosol",
+      price: "10,60 € HT / aérosol",
       featured: false,
       badge: "Brillance Pro",
       features: [
@@ -311,7 +311,7 @@ export const SEED = [
   P("creme-mains-base-tgt", "CRÈME MAINS • Savon Liquide Nacré Douceur", "consommables", ["bureaux", "commerces", "restaurateurs"], "🧼", "Bidon de 5 L",
     "Savon liquide nacré formulé pour le lavage fréquent des mains. Respecte l'épiderme tout en garantissant une hygiène parfaite dans tous les distributeurs sanitaires.",
     {
-      price: "10,99 € HT / bidon de 5 L",
+      price: "11,99 € HT / bidon de 5 L",
       featured: true,
       features: [
         "Texture onctueuse et parfum délicat adaptée aux lavages très fréquents",
@@ -354,7 +354,7 @@ export const SEED = [
   P("détergent-triple-action-tgt", "ODOR 3D TRIPLE ACTION • Désinfectant Neutre", "sols", ["bureaux", "commerces", "restaurateurs", "chantiers"], "✨", "Bidon 5 L · Carton 5 L x 4",
     "Détergent, désodorisant et désinfectant à large spectre. Nettoie, assainit et parfume toutes les surfaces lavables en un seul passage en respectant les normes en vigueur.",
     {
-      price: "11,99 € HT / bidon de 5 L",
+      price: "13,50 € HT / bidon de 5 L",
       featured: true,
       badge: "Triple Action",
       features: [
@@ -397,7 +397,7 @@ export const SEED = [
   P("Papiershygnq-rouleau-tgt", "Papier Hygiénique Rouleau Standard", "consommables", ["bureaux", "commerces", "restaurateurs"], "🧻", "Pack de 72 rouleaux",
     "Rouleaux de papier hygiénique standard en pure ouate confortable, parfaitement adaptés aux exigences des sanitaires de bureaux et structures professionnelles.",
     {
-      price: "10,99 € HT / pack de 72 rouleaux",
+      price: "12,99 € HT / pack de 72 rouleaux",
       featured: false,
       features: [
         "Confort optimal et bonne résistance à l'usage",
